@@ -1,0 +1,230 @@
+* {
+    font-family: "Century Gothic";
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: #f47a09;
+    height: 76px;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    width: 120px;
+    float: left;
+}
+
+.menu-list {
+    display: inline-block;
+    height: 76px;
+    margin: 0;
+}
+
+.menu-list-item {
+    display: inline-block;
+    font-size: 20px;
+    height: 76px;
+    margin-right: 30px;
+}
+
+.menu-list-item-link {
+    display: block;
+    font-size: 20px;
+    height: 76px;
+    text-decoration: none;
+    line-height: 76px;
+    padding: 0 10px 0 10px;
+}
+
+.catalogue-list-main-item {
+    position: relative;
+}
+
+.catalogue-list {
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+    padding-right: 40px;
+    line-height: 30px;
+    background-color: #f47a09;
+    -webkit-box-shadow: 2px 6px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 6px 5px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 6px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.catalogue-list-main-item:hover > .catalogue-list {
+    display: block;
+}
+
+.catalogue-list-item {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.catalogue-list-item-link {
+    text-decoration: none;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.products {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.product-block {
+    width: 500px;
+    float: left;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+}
+
+.product-block-heading {
+    text-align: center;
+}
+
+.product-block-heading-link {
+    text-decoration: none;
+}
+
+.product-block-image {
+    width: 500px;
+    height: 350px;
+}
+
+.price {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    float: left;
+    margin: 15px;
+}
+
+.product-block-buy-button {
+    margin: 10px;
+    float: right;
+    background: #e68633;
+    background-image: -webkit-linear-gradient(top, #e68633, #F47A09);
+    background-image: -moz-linear-gradient(top, #e68633, #F47A09);
+    background-image: -ms-linear-gradient(top, #e68633, #F47A09);
+    background-image: -o-linear-gradient(top, #e68633, #F47A09);
+    background-image: linear-gradient(to bottom, #e68633, #F47A09);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+}
+
+.product-block-buy-button:hover {
+    background: #ff7700;
+    background-image: -webkit-linear-gradient(top, #ff7700, #965115);
+    background-image: -moz-linear-gradient(top, #ff7700, #965115);
+    background-image: -ms-linear-gradient(top, #ff7700, #965115);
+    background-image: -o-linear-gradient(top, #ff7700, #965115);
+    background-image: linear-gradient(to bottom, #ff7700, #965115);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.product-block-page {
+    box-shadow: none;
+    float: none;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.full-descriptoin-paragraph {
+    text-indent: 20px;
+}
+
+.form-page-main {
+    margin-left: 50px;
+}
+
+input {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    height: 28px;
+    outline: none;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+textarea {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    outline: none;
+}
+
+input::-webkit-inner-spin-button {
+    height: 32px;
+}
+
+.add-item-button {
+    width: 300px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.add-item-button:hover {
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.add-file-input {
+    display: none;
+}
+
+.add-file-button {
+    display: block;
+    width: 300px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    background-color: buttonface;
+}
+
+.add-file-button:hover {
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}

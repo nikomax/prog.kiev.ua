@@ -1,0 +1,26 @@
+
+nav {
+    padding-bottom: 100px;
+}
+
+.nav-list-item {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-sublist {
+    visibility: hidden;
+    /*display: none;*/
+    position: absolute;
+}
+
+.nav-list-item-brands:hover>.nav-sublist {
+    /*display: block;*/
+    visibility: visible;
+}
+
+
+
+
+
+

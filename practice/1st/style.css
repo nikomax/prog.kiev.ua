@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+body {
+    margin: 0 150px 0 150px;
+}
+
+.logo {
+    float: left;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+header {
+    overflow: hidden;
+}
+

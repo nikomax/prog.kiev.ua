@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<main class="form-page-main">
+    <h1>Добавить новую единицу товара</h1>
+
+    <form>
+        <label for="item-title-input">Название товара</label><br>
+        <input type="text" id="item-title-input" required> <br>
+
+        <label for="item-image">
+            <div class="add-file-button">Загрузить фото</div>
+        </label><br>
+        <input class="add-file-input" type="file" accept=".png, .jpeg" id="item-image" required> <br>
+
+        <label for="item-description">Описание товара</label> <br>
+        <textarea name="" id="item-description" cols="30" rows="10" required></textarea> <br>
+
+        <label for="item-price">Цена</label><br>
+        <input type="number" id="item-price" min="0" required> <br>
+
+        <button class="add-item-button">Добавить товар в каталог</button>
+
+    </form>
+</main>
+
+</body>
+</html>

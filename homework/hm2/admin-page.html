@@ -10,19 +10,27 @@
     <h1>Добавить новую единицу товара</h1>
 
     <form>
-        <label for="item-title-input">Название товара</label><br>
-        <input type="text" id="item-title-input" required> <br>
+        <div class="form-group">
+            <label for="item-title-input">Название товара</label>
+            <input type="text" id="item-title-input" required>
+        </div>
 
-        <label for="item-image">
-            <div class="add-file-button">Загрузить фото</div>
-        </label><br>
-        <input class="add-file-input" type="file" accept=".png, .jpeg" id="item-image" required> <br>
+        <div class="form-group">
+            <label for="item-image">
+                <div class="add-file-button">Загрузить фото</div>
+            </label>
+            <input class="add-file-input" type="file" accept=".png, .jpeg" id="item-image" required>
+        </div>
 
-        <label for="item-description">Описание товара</label> <br>
-        <textarea name="" id="item-description" cols="30" rows="10" required></textarea> <br>
+        <div class="form-group">
+            <label for="item-description">Описание товара</label>
+            <textarea name="" id="item-description" cols="30" rows="10" required></textarea>
+        </div>
 
-        <label for="item-price">Цена</label><br>
-        <input type="number" id="item-price" min="0" required> <br>
+        <div class="form-group">
+            <label for="item-price">Цена</label>
+            <input type="number" id="item-price" min="0" required>
+        </div>
 
         <button class="add-item-button">Добавить товар в каталог</button>
 

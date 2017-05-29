@@ -72,6 +72,11 @@ header {
     text-decoration: none;
 }
 
+.registration {
+    float: right;
+    margin: 25px;
+}
+
 .main-heading {
     text-align: center;
 }

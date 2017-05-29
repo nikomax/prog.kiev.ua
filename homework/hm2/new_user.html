@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+<main class="form-page-main">
+    <form>
+        <div class="form-group">
+            <label for="user-first-name">Имя</label><br>
+            <input type="text" id="user-first-name">
+        </div>
+
+        <div class="form-group">
+            <label for="user-second-name">Фамилия</label><br>
+            <input type="text" id="user-second-name">
+        </div>
+
+        <div class="form-group">
+            <label for="user-email">Электронная почта</label><br>
+            <input type="email" id="user-email">
+        </div>
+
+        <div class="form-group">
+            <label for="user-password">Пароль</label><br>
+            <input type="password" id="user-password">
+        </div>
+
+        <div class="form-group">
+            <label for="user-sex">Пол</label><br>
+            <input type="radio" name="user-sex" id="user-sex"><span>Мужской</span>
+            <input type="radio" name="user-sex" id="user-sex"><span>Женский</span>
+        </div>
+
+        <div class="form-group">
+            <label for="user-country">Страна</label><br>
+            <select name="country" id="user-country">
+                <option value="Ukraine">Украина</option>
+                <option value="Russian">Россия</option>
+                <option value="Poland">Польша</option>
+                <option value="Italy">Италия</option>
+                <option value="France">Франция</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="user-birthday">Дата рождения</label><br>
+            <input type="date" id="user-birthday">
+        </div>
+
+        <div class="form-group">
+            <label for="user-phone">Номер телефона</label><br>
+            <input type="tel" id="user-phonebirthday">
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Регистрация">
+        </div>
+
+
+
+    </form>
+</main>
+
 
 </body>
 </html>

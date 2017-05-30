@@ -6,10 +6,87 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+<table class="table-items" border="1px">
+    <tr class="first-row">
+        <th>id</th>
+        <th>Товар</th>
+        <th>Описание</th>
+        <th>Цена</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ВАЗ 1111 Ока</td>
+        <td>
+            <ul class="product-block-shortdescription">
+                <li>Модель: Ваз 1111 Ока</li>
+                <li>Масштаб: 1:43</li>
+                <li>Производитель: Китай</li>
+            </ul>
+        </td>
+        <td>99 грн</td>
+        <td><a class="edit-item" href="#form-new-item">Edit</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ВАЗ 2106</td>
+        <td>
+            <ul class="product-block-shortdescription">
+                <li>Модель: Ваз 2106</li>
+                <li>Масштаб: 1:43</li>
+                <li>Производитель: Китай</li>
+            </ul>
+        </td>
+        <td>104 грн</td>
+        <td><a class="edit-item" href="#form-new-item">Edit</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>BMW X5</td>
+        <td>
+            <ul class="product-block-shortdescription">
+                <li>Модель: BMW X5</li>
+                <li>Масштаб: 1:43</li>
+                <li>Производитель: Китай</li>
+            </ul>
+        </td>
+        <td>208 грн</td>
+        <td><a class="edit-item" href="#form-new-item">Edit</a></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ford GT</td>
+        <td>
+            <ul class="product-block-shortdescription">
+                <li>Модель: Ford GT</li>
+                <li>Масштаб: 1:43</li>
+                <li>Производитель: Китай</li>
+            </ul>
+        </td>
+        <td>189 грн</td>
+        <td><a class="edit-item" href="#form-new-item">Edit</a></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Land Rover Range Rover</td>
+        <td>
+            <ul class="product-block-shortdescription">
+                <li>Модель: Land Rover Range Rover</li>
+                <li>Масштаб: 1:43</li>
+                <li>Производитель: Китай</li>
+            </ul>
+        </td>
+        <td>104 грн</td>
+        <td><a class="edit-item" href="#form-new-item">Edit</a></td>
+    </tr>
+
+</table>
+
 <main class="form-page-main">
     <h1>Добавить новую единицу товара</h1>
 
-    <form>
+    <form id="form-new-item">
         <div class="form-group">
             <label for="item-title-input">Название товара</label>
             <input type="text" id="item-title-input" required>

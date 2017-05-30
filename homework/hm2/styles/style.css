@@ -233,3 +233,8 @@ input::-webkit-inner-spin-button {
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+.table-items {
+    width: 90%;
+    margin-left: 50px;
+}

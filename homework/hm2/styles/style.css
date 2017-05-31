@@ -170,8 +170,12 @@ a {
     margin-left: 50px;
 }
 
-input {
-    margin-bottom: 50px;
+.form-group {
+    margin: 10px;
+    width: 250px;
+}
+
+input, select {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 250px;
@@ -185,7 +189,6 @@ label {
 }
 
 textarea {
-    margin-bottom: 50px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 250px;
@@ -197,8 +200,7 @@ input::-webkit-inner-spin-button {
     height: 32px;
 }
 
-.add-item-button {
-    width: 300px;
+input[type="submit"] {
     height: 28px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -206,7 +208,7 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
 }
 
-.add-item-button:hover {
+input[type="submit"]:hover {
     -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -218,7 +220,7 @@ input::-webkit-inner-spin-button {
 
 .add-file-button {
     display: block;
-    width: 300px;
+    width: 250px;
     height: 28px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -261,4 +263,8 @@ input::-webkit-inner-spin-button {
 .pagination>li>a:hover {
     border-radius: 5px;
     background-color: #c3c3c3;
+}
+
+#user-sex {
+    width: 20px;
 }

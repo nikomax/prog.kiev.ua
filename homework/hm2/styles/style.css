@@ -72,7 +72,7 @@ header {
     text-decoration: none;
 }
 
-.registration {
+.registration, .admin-page {
     float: right;
     margin: 25px;
 }

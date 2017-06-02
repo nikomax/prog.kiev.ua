@@ -273,6 +273,10 @@ input[type="submit"]:hover {
     background-color: #c3c3c3;
 }
 
+.active-page-button {
+    background-color: #5a4c96;
+}
+
 #user-sex {
     width: 20px;
 }

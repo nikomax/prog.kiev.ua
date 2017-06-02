@@ -66,12 +66,12 @@ header {
 
 .catalogue-list-item {
     list-style-type: none;
-    padding: 0 0 10px 25px;
     width: 200px;
     border-bottom: solid 1px #f4943b;
 }
 
 .catalogue-list-item-link {
+    padding: 5px 0 5px 25px;
     text-decoration: none;
     display: block;
     width: 100%;

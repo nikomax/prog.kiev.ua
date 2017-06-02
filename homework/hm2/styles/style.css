@@ -186,6 +186,12 @@ input, select {
     font-size: 20px;
 }
 
+input:focus {
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(37,64,245,1);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(37,64,245,1);
+    box-shadow: inset 0px 0px 5px 1px rgba(37,64,245,1);
+}
+
 label {
     font-size: 20px;
 }

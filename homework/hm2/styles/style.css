@@ -50,8 +50,9 @@ header {
 .catalogue-list {
     display: none;
     position: absolute;
-    margin-left: -40px;
-    padding-right: 40px;
+    padding: 0;
+    /*margin-left: -40px;*/
+    /*padding-right: 40px;*/
     line-height: 30px;
     background-color: #f47a09;
     -webkit-box-shadow: 2px 6px 5px 2px rgba(0, 0, 0, 0.75);
@@ -65,11 +66,15 @@ header {
 
 .catalogue-list-item {
     list-style-type: none;
-    padding-bottom: 10px;
+    padding: 0 0 10px 25px;
+    width: 200px;
+    border-bottom: solid 1px #f4943b;
 }
 
 .catalogue-list-item-link {
     text-decoration: none;
+    display: block;
+    width: 100%;
 }
 
 .registration, .admin-page {

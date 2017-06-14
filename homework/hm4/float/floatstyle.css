@@ -1,0 +1,60 @@
+.conteiner {
+    background-color: green;
+    width: 100vw;
+}
+
+.grid {
+    height: 100px;
+    background-color: red;
+    outline: 1px solid black;
+    float: left;
+}
+
+.grid1 {
+    width: 1.28%;
+}
+
+.grid2 {
+    width: calc((1.28%)*2);
+}
+
+.grid3 {
+    width: calc((1.28%)*3);
+}
+
+.grid4 {
+    width: calc((1.28%)*4);
+}
+
+.grid5 {
+    width: calc((1.28%)*5);
+}
+
+.grid6 {
+    width: calc((1.28%)*6);
+}
+
+.grid7 {
+    width: calc((1.28%)*7);
+}
+
+.grid8 {
+    width: calc((1.28%)*8);
+}
+
+.grid9 {
+    width: calc((1.28%)*9);
+}
+
+.grid10 {
+    width: calc((1.28%)*10);
+}
+
+.grid11 {
+    width: calc((1.28%)*11);
+}
+
+.grid12 {
+    width: calc((1.28%)*12);
+}
+

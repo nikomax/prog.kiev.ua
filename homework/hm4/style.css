@@ -1,0 +1,59 @@
+.conteiner {
+    display: inline-flex;
+    background-color: green;
+    width: 100vw;
+}
+
+.grid {
+    height: 100px;
+    background-color: red;
+    outline: 1px solid black;
+}
+
+.grid1 {
+    flex-grow: 1;
+}
+
+.grid2 {
+    flex-grow: 2;
+}
+
+.grid3 {
+    flex-grow: 3;
+}
+
+.grid4 {
+    flex-grow: 4;
+}
+
+.grid5 {
+    flex-grow: 5;
+}
+
+.grid6 {
+    flex-grow: 6;
+}
+
+.grid7 {
+    flex-grow: 7;
+}
+
+.grid8 {
+    flex-grow: 8;
+}
+
+.grid9 {
+    flex-grow: 9;
+}
+
+.grid10 {
+    flex-grow: 10;
+}
+
+.grid11 {
+    flex-grow: 11;
+}
+
+.grid12 {
+    flex-grow: 12;
+}

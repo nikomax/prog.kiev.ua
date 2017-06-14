@@ -67,7 +67,7 @@ header {
     display: none;
     position: absolute;
     padding: 0;
-    /*margin-left: -40px;*/
+    margin-left: -40px;
     /*padding-right: 40px;*/
     line-height: 30px;
     background-color: #f47a09;
@@ -84,6 +84,10 @@ header {
     list-style-type: none;
     width: 200px;
     border-bottom: solid 1px #f4943b;
+}
+
+.catalogue-list-item:hover{
+    background: #f4943b;
 }
 
 .catalogue-list-item-link {
@@ -357,6 +361,10 @@ input[type="submit"]:hover {
         display: block;
         background-color: #f47a09;
         border-bottom: solid 1px #f4943b;
+    }
+
+    .menu-list-item:hover {
+        background: #f4943b;
     }
 
     .product-block {

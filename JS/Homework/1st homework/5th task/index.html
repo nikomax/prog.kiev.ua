@@ -8,18 +8,20 @@
 
 
 <script>
-    var favoriteFood = ["Dumplings", "Borsch", "Pasta", "Barbecue", "Shawarma", "ddsdff"];
+    var favoriteFood = ["Dumplings", "Borsch", "Pasta", "Barbecue", "Shawarma"];
+    var  max = favoriteFood[0];
     function findLongestWord(){
-        for (var i = 0; i <= favoriteFood.length; i++){
-            if (favoriteFood[i].length > favoriteFood[i+1].length) {
-                return favoriteFood[i];
+        for (var i = 0; i < (favoriteFood.length); i++){
+           var a = favoriteFood[i];
+            if (a.length > max.length) {
+                max = favoriteFood[i];
             }
 
         }
 
     };
     findLongestWord();
-    console.log(findLongestWord());
+    console.log(max);
 
 
 

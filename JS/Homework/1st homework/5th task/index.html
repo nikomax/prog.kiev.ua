@@ -11,7 +11,7 @@
     var favoriteFood = ["Dumplings", "Borsch", "Pasta", "Barbecue", "Shawarma"];
     var  max = favoriteFood[0];
     function findLongestWord(){
-        for (var i = 0; i < (favoriteFood.length); i++){
+        for (var i = 0; i < favoriteFood.length; i++){
            var a = favoriteFood[i];
             if (a.length > max.length) {
                 max = favoriteFood[i];
@@ -23,10 +23,19 @@
     findLongestWord();
     console.log("The longest name of dish: " , max);
 
-    for (var i = 0; i < (favoriteFood.length); i++) {
+    for (var i = 0; i < favoriteFood.length; i++) {
         console.log((i+1) + "." + favoriteFood[i]);
+        document.write((i+1) + "." + favoriteFood[i]);
     }
 
+    var userFood = prompt("Enter your favourite dish");
+    for (var i = 0; i < favoriteFood.length; i++){
+        if (userFood == favoriteFood[i]) {
+            alert("We have this");
+        } else {
+            alert("Didn`t find it");
+        }
+    }
 
 
 

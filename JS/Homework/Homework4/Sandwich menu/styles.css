@@ -1,0 +1,40 @@
+.box {
+    height: 40px;
+    width: 50px;
+    position: relative;
+}
+
+.menu__line {
+    height: 5px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.menu__line--active {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu__line--active:first-child {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.menu__line--active:last-child {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.menu__container {
+    display: none;
+}
+
+.menu__container--active {
+    display: block;
+}

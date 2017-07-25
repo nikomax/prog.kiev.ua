@@ -1,0 +1,33 @@
+.review {
+    height: 400px;
+    width: 600px;
+}
+
+.review>img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.item {
+    height: 100px;
+    width: 100px;
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(0.8);
+    transition: 0.3s;
+}
+
+.item__image {
+    height: 100%;
+}
